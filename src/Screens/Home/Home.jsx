@@ -27,7 +27,7 @@ const Home = () => {
 
         <Row className="space">
           <img
-            src="./assets/img/group12.svg"
+            src="assets/img/group12.svg"
             alt="img"
             style={{
               margin: " auto",
