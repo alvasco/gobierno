@@ -1,0 +1,32 @@
+.pregunta{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.pregunta span{
+    color: #2CCDB0;
+}
+.banco{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+.interactua{
+    justify-content: space-around;
+}
+.recursos-titulo{
+   
+font-weight: 700;
+color: black;
+font-size: 24px;
+margin-bottom: 40px;
+      
+      
+}
+.recursos-texto{
+    font-size: 20px;
+    font-weight: 400;
+    
+}

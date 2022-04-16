@@ -1,0 +1,16 @@
+.menu {
+  background-color: #23a455;
+  
+}
+.menu-text{
+    color: white;
+}
+
+.links{
+  text-decoration: none;
+  
+}
+.links:hover{
+  text-decoration-line:underline;
+  text-decoration-color: white;
+}

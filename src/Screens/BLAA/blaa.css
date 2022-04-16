@@ -1,0 +1,16 @@
+.parrafo   {
+    font-size: 32px;
+    color: #605F5F;
+    margin-block: 3em;
+}
+.parrafo span{
+    color:#2CCDB0 ;
+}
+.powerbi{
+    margin-bottom: 3em;
+}
+.botones{
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 100px;
+}

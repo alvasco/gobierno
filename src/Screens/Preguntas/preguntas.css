@@ -1,0 +1,57 @@
+
+.row-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.titulo{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+.row-acordeon{
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f5f5f5;
+}
+.accordion-flush .accordion-item .accordion-button {
+    color: #2CCDB0;
+    font-weight: 700;
+
+}
+.competitivas{
+    background: #EFF5F8;
+    margin-block: 2em;
+    padding: 1em;
+}
+
+.card-preguntas{
+    background: white;
+   text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 150px;
+    color:#605F5F ;
+}
+strong{
+    color: #F2BD02;
+}
+
+.texto-competitiva{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+margin-block: 1em;
+}
+span{
+   color:#23A455 ; 
+
+}

@@ -1,0 +1,16 @@
+.links{
+    text-decoration: none;
+    text-decoration-color: #117035;
+    color: #33BB67;
+}
+.links:hover{
+    text-decoration: none;
+    text-decoration-color: #117035;
+    color: #1a814d;
+}
+.emails{
+    margin: 0;
+}
+.titles{
+    font-weight: 700;
+}
