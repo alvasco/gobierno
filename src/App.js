@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <Menu />
-      <Routes>
+      <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/bancolicitacionesabiertas" element={<Blaa />} />
         <Route path="/registro-proveedores" element={<Registro />} />
