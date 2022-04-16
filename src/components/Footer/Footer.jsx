@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import './footer.css'
+import "./footer.css";
 const Footer = () => {
   return (
     <>
@@ -22,13 +22,13 @@ const Footer = () => {
             }}
           >
             <p className="titles">Alianzas</p>
-            <a href="" className="links">
+            <a href="https://colombiacompra.gov.co/" className="links">
               Colombia Compra Eficiente
             </a>
-            <a href="" className="links">
+            <a href="https://agacolombia.org/" className="links">
               Alianza Por El Gobierno Abierto de Colombia
             </a>
-            <a href="" className="links">
+            <a href="https://www.open-contracting.org/es/" className="links">
               Open Contracting Partnership
             </a>
           </div>
