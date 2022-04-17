@@ -8,6 +8,7 @@ import Blaa from "./Screens/BLAA/Blaa";
 import Registro from "./Screens/Registro/Registro";
 import Trasparencia from "./Screens/Transparencia/Transparencia";
 import Preguntas from "./Screens/Preguntas/Preguntas";
+import Denuncias from "./Screens/Denuncias/Denuncias";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/registro-proveedores" element={<Registro />} />
         <Route path="/transparencia" element={<Trasparencia />} />
         <Route path="/preguntas-frecuentes" element={<Preguntas />} />
+        <Route path="/portal-denuncias" element={<Denuncias />} />
       </Routes>
       <Footer />
     </>

@@ -2,11 +2,10 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "././body.css";
 const Body = ({ children, orden, img }) => {
-  console.log(children);
   return (
     <>
       <Container className="body">
-        <Row>
+        <Row  style={{alignItems:'center'}}>
           {orden === 1 ? (
             <>
               <Col md={6}>
@@ -37,7 +36,8 @@ const Body = ({ children, orden, img }) => {
                     alt=""
                     style={{
                       width: "80%",
-                      margin: "auto"
+                      margin: "auto",
+                      
                     }}
                   />
                 </Row>
@@ -46,7 +46,6 @@ const Body = ({ children, orden, img }) => {
           )}
         </Row>
       </Container>
-      
     </>
   );
 };

@@ -4,7 +4,7 @@ import "./participacion.css";
 const Participacion = () => {
   return (
     <section className="space participacion">
-      <Container>
+      <Container >
         <Col md={12}>
           <Row style={{ textAlign: "center" }}>
             <h4 className="title" style={{ marginTop: "80px" }}>
@@ -18,7 +18,7 @@ const Participacion = () => {
           </Row>
         </Col>
 
-        <Row style={{ textAlign: "center", alignItems: "center" }}>
+        <Row style={{ textAlign: "center", alignItems: "center", }}>
           <Col md={6}>
             <Row>
               <img

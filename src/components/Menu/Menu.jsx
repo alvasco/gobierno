@@ -25,7 +25,7 @@ const Menu = () => {
                   Inicio
                 </Link>
               </Nav.Link>
-              <Nav.Link className="links" >
+              <Nav.Link className="links">
                 <Link
                   className="links"
                   to={"/bancolicitacionesabiertas"}
@@ -53,7 +53,13 @@ const Menu = () => {
                 </Link>
               </Nav.Link>
               <Nav.Link className="links" style={{ color: "white" }}>
-                Portal denuncias
+                <Link
+                  to={"/portal-denuncias"}
+                  className="links"
+                  style={{ color: "white" }}
+                >
+                  Portal denuncias{" "}
+                </Link>
               </Nav.Link>
               <Nav.Link className="links" style={{ color: "white" }}>
                 <Link

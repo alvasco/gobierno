@@ -44,7 +44,7 @@ const Blaa = () => {
             <Button className='botones' texto={"Descarga El Plan Completo"} />
           </Col>
           <Col md={6}>
-          <Button className='botones' texto={"Descarga El Plan Completo"} />
+          <Button className='botones' texto={"Ver el video tutorial de uso"} />
           </Col>
         </Row>
       </Container>

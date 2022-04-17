@@ -57,17 +57,18 @@ const Trasparencia = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          marginTop: "2rem"
         }}
         >
-          <Col md={6}>
-            <Button  texto={"Ver pacto por la transparencia"} >
+          <Col style={{marginBlock:"2em"}} md={6}>
+            <Button  texto={"Ver pacto por la transparencia"}/ >
               
-            </Button>
+            
           </Col>
           <Col md={6}>
-            <Button texto={"Ver IV Plan de Acción de Gobierno Abierto"} >
+            <Button texto={"Ver IV Plan de Acción de Gobierno Abierto"} />
               
-            </Button>
+            
           </Col>
         </Row>
         </Row>
