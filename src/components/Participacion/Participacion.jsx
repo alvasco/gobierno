@@ -26,7 +26,8 @@ const Participacion = () => {
                 alt="img"
                 style={{
                   width: "70%",
-                  marginLeft:"35%"
+                  marginLeft:"35%",
+                  marginBottom: "80px"
                   
                 }}
               />

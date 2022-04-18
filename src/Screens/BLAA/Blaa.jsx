@@ -41,10 +41,20 @@ const Blaa = () => {
 
         <Row className="botones">
           <Col md={6}>
-            <Button className='botones' texto={"Descarga El Plan Completo"} />
+            <Button
+              className="botones"
+              texto={"Descarga El Plan Completo"}
+              link={
+                "https://drive.google.com/drive/folders/1ZhJgH551HV2SzXWQXa_tus0InPZ4Nyp_?usp=sharing"
+              }
+            />
           </Col>
           <Col md={6}>
-          <Button className='botones' texto={"Ver el video tutorial de uso"} />
+            <Button
+              className="botones"
+              texto={"Ver el video tutorial de uso"}
+              link={"https://www.youtube.com/watch?v=ummwHEzP0JA"}
+            />
           </Col>
         </Row>
       </Container>

@@ -42,10 +42,33 @@ const Footer = () => {
               marginBlock: "1.2em"
             }}
           >
-            <p className="titles">Correos de Contacto</p>
-            <p className="emails">ventanillaunica@palmira.gov.co</p>
-            <p className="emails">atencionalciudadano@palmira.gov.co</p>
-            <p className="emails">notificaciones.judiciales@palmira.gov.co</p>
+            <p href="mailito:" className="titles">
+              Correos de Contacto
+            </p>
+            <a
+              href="mailto:ventanillaunica@palmira.gov.co"
+              className="emails"
+              target={"_blank"}
+              rel="noopener noreferrer"
+            >
+              ventanillaunica@palmira.gov.co
+            </a>
+            <a
+              href="mailto:atencionalciudadano@palmira.gov.co"
+              className="emails"
+              target={"_blank"}
+              rel="noopener noreferrer"
+            >
+              atencionalciudadano@palmira.gov.co
+            </a>
+            <a
+              href="mailto:notificaciones.judiciales@palmira.gov.co"
+              className="emails"
+              target={"_blank"}
+              rel="noopener noreferrer"
+            >
+              notificaciones.judiciales@palmira.gov.co
+            </a>
           </div>
         </Col>
       </Row>

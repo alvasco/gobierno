@@ -42,21 +42,39 @@ const Registro = () => {
               publicados.
             </p>
             <div className="redes-iconos">
-              <img
-                style={{ width: "15%", cursor: "pointer" }}
-                src="./assets/img/facebook.svg"
-                alt=""
-              />
-              <img
-                style={{ width: "15%", cursor: "pointer" }}
-                src="./assets/img/insta.svg"
-                alt=""
-              />
-              <img
-                style={{ width: "15%", cursor: "pointer" }}
-                src="./assets/img/twitter.svg"
-                alt=""
-              />
+              <a
+                href="https://www.facebook.com/alcaldiadepalmira/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <img
+                  style={{ width: "75%", cursor: "pointer" }}
+                  src="./assets/img/facebook.svg"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/alcaldiapalmira"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <img
+                  style={{ width: "75%", cursor: "pointer" }}
+                  src="./assets/img/insta.svg"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://twitter.com/alcaldiapalmira"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <img
+                  style={{ width: "75%", cursor: "pointer" }}
+                  src="./assets/img/twitter.svg"
+                  alt=""
+                />
+              </a>
             </div>
           </Col>
         </Row>

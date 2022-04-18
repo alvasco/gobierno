@@ -10,6 +10,13 @@
 }
 .emails{
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #33BB67;
+}
+.emails:hover{
+    text-decoration: none;
+    color: #1a814d;
 }
 .titles{
     font-weight: 700;
