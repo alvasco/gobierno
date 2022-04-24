@@ -5,7 +5,7 @@ import Body from "../../components/Body/Body";
 import Button from "../../components/common/Button";
 import Tarjeta from "./Tarjeta";
 import "./transparencia.css";
-const Trasparencia = () => {
+const Transparencia = () => {
   return (
     <>
       <Banner title={"La transparencia tiene un propósito: participación"} />
@@ -73,4 +73,4 @@ const Trasparencia = () => {
   );
 };
 
-export default Trasparencia;
+export default Transparencia;

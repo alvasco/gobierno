@@ -6,7 +6,7 @@ import Menu from "./components/Menu/Menu";
 import Footer from "./components/Footer/Footer";
 import Blaa from "./Screens/BLAA/Blaa";
 import Registro from "./Screens/Registro/Registro";
-import Trasparencia from "./Screens/Transparencia/Transparencia";
+import Transparencia from "./Screens/Transparencia/Transparencia";
 import Preguntas from "./Screens/Preguntas/Preguntas";
 import Denuncias from "./Screens/Denuncias/Denuncias";
 
@@ -14,13 +14,13 @@ const App = () => {
   return (
     <>
       <Menu />
-      <Routes >
-        <Route path="/" element={<Home />} />
-        <Route path="/bancolicitacionesabiertas" element={<Blaa />} />
-        <Route path="/registro-proveedores" element={<Registro />} />
-        <Route path="/transparencia" element={<Trasparencia />} />
-        <Route path="/preguntas-frecuentes" element={<Preguntas />} />
-        <Route path="/portal-denuncias" element={<Denuncias />} />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route  path="/banco-licitaciones-abiertas" element={<Blaa />} />
+        <Route  path="/registro-proveedores" element={<Registro />} />
+        <Route  path="/transparencia" element={<Transparencia />} />
+        <Route  path="/preguntas-frecuentes" element={<Preguntas />} />
+        <Route  path="/portal-denuncias" element={<Denuncias />} />
       </Routes>
       <Footer />
     </>

@@ -4,7 +4,7 @@ import "./pregunta.css";
 
 const Pregunta = () => {
   return (
-    <Container className="space " style={{marginTop:"80px"}}>
+    <Container className="space " style={{ marginTop: "80px" }}>
       <Row className="space ">
         <Col md={12} className="pregunta">
           <p className="">¿Cómo lo hacemos posible?</p>
@@ -39,7 +39,7 @@ const Pregunta = () => {
             compras públicas, te invitamos a inscribirte como potencial
             proveedor.
           </p>
-          <Button texto={"Conócelo"} link={'/bancolicitacionesabiertas'}/>
+          <Button texto={"Conócelo"} link={"/banco-licitaciones-abiertas"} />
         </Col>{" "}
         <Col
           md={5}
@@ -60,7 +60,7 @@ const Pregunta = () => {
             Conozca qué compras realizaremos durante el año, incluyendo
             modalidad, valor, tiempos y responsables
           </p>
-          <Button texto={" Regístrate"} link={'/registro-proveedores'} />
+          <Button texto={" Regístrate"} link={"/registro-proveedores"} />
         </Col>
       </Row>
     </Container>

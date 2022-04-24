@@ -28,7 +28,7 @@ const Menu = () => {
               <Nav.Link className="links">
                 <Link
                   className="links"
-                  to={"/bancolicitacionesabiertas"}
+                  to={"/banco-licitaciones-abiertas"}
                   style={{ color: "white" }}
                 >
                   Banco licitaciones

@@ -31,8 +31,8 @@ const Blaa = () => {
             <iframe
               title="proveedores"
               src="https://app.powerbi.com/view?r=eyJrIjoiMjA2NTgxMTgtNmJkYS00ZGE5LWI4ZTgtMjg0MjU3ZjA2ZTJlIiwidCI6IjAyZTZmZDNlLTg0ZWEtNDBhYS1iMjIxLWRlZTEzYjhhNGUwNyJ9&pageName=ReportSection"
-              frameborder="10"
-              allowfullscreen="true"
+              frameBorder="10"
+              allowFullScreen
               width="100%"
               height="720"
             ></iframe>
