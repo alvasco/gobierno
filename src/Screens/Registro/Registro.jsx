@@ -25,8 +25,8 @@ const Registro = () => {
               width="100%"
               height="700"
               frameBorder="0"
-              marginheight="0"
-              marginwidth="0"
+              marginHeight="0"
+              marginWidth="0"
               title="Registro"
             ></iframe>
           </Col>
