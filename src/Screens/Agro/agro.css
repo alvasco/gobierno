@@ -1,0 +1,189 @@
+.agro-p{
+    padding: 0px;
+    color: #605F5F;
+text-align: justify;
+   font-weight: 700; 
+   font-size: 22px;
+}
+
+.agro-p span{
+   
+    color: #F2BD02;
+   }
+
+/* .plan{
+    background: #EFF5F8;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.plan-card{
+    background: white;
+    color: #666AF6;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    align-self: center;
+}
+.first{
+    justify-content: start;
+}
+.gap{
+    margin-top: 2em;
+}
+.first-space{
+    display: flex;
+    justify-content: flex-end;
+}
+.second-space{
+    display: flex;
+    justify-content: center;
+} */
+
+.containerGrid{
+    background: #EFF5F8;
+    /* width: 100%; */
+    padding-block: 3em;
+
+}
+.gridPlan, .gridPlan2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+.gridPlan.uno{
+    grid-template-areas: "img txt arrow";
+}
+.gridPlan.dos{
+    grid-template-areas: "arrow txt img";
+}
+.gridPlan .section1{
+    grid-area: img;
+}
+.gridPlan .section2{
+    grid-area: txt;
+}
+.gridPlan .section3{
+    grid-area: arrow;
+}
+.gridPlan .section2 p, .gridPlan2 .section2 p{
+    color:#666AF6;
+    background: #ffffff;
+    border-radius: 10px;
+    padding-inline: 36px;
+    padding-block: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+.text{
+    font-size: 24px;
+    font-weight: 700;
+}
+.productores-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #605F5F;
+}
+.productores-text span{
+    color: #F2BD02;
+    font-weight: 700;
+}
+.mapa{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.slick-arrow {
+    display: block;
+    color: #666AF6;
+    background: #666AF6;
+}
+.slick-arrow:hover{
+    background: #F2BD02;
+    color: #ffffff;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cuadro{
+    border: #666AF6 solid 3px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    color: #666AF6;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.cuadro2{
+    background-color: #666AF6 ;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+
+/* .cuadro-texto{
+    color: #666AF6;
+    font-size: 20px;
+    font-weight: 400;
+    
+} */
+/* .cuadro-texto:hover {
+    color: #ffffff;
+} */
+.cuadro-numero{
+    color: #666AF6;
+    font-size: 32px;
+/* }.cuadro:hover ,.cuadro-numero:hover{
+    background: #666AF6;
+    color: white; */
+}.texto-columna{
+    color: #605F5F;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.identificar{
+    font-size: 24px;
+    font-weight: 400;
+    color: #605F5F;
+    text-align: justify;
+}
+.estrategia{
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+.verBanco{
+    color: #33BB67;
+    font-size: 24px;
+    font-weight: 400;
+}
+.final-titulo{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+.final-parrafo{
+    font-size: 24px;
+    font-weight: 400;
+    color: #605F5F;
+}
+.final-link{
+    color: #33BB67;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.final-link:hover{
+    color: #089940;
+}

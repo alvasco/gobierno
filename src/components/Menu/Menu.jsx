@@ -63,6 +63,15 @@ const Menu = () => {
               </Nav.Link>
               <Nav.Link className="links" style={{ color: "white" }}>
                 <Link
+                  to={"/inclusion-social"}
+                  className="links"
+                  style={{ color: "white" }}
+                >
+                  Inclusión social{" "}
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="links" style={{ color: "white" }}>
+                <Link
                   to={"/preguntas-frecuentes"}
                   className="links"
                   style={{ color: "white" }}

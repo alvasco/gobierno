@@ -9,6 +9,7 @@ import Registro from "./Screens/Registro/Registro";
 import Transparencia from "./Screens/Transparencia/Transparencia";
 import Preguntas from "./Screens/Preguntas/Preguntas";
 import Denuncias from "./Screens/Denuncias/Denuncias";
+import Agro from "./Screens/Agro/Agro";
 
 const App = () => {
   return (
@@ -16,11 +17,12 @@ const App = () => {
       <Menu />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route  path="/banco-licitaciones-abiertas" element={<Blaa />} />
-        <Route  path="/registro-proveedores" element={<Registro />} />
-        <Route  path="/transparencia" element={<Transparencia />} />
-        <Route  path="/preguntas-frecuentes" element={<Preguntas />} />
-        <Route  path="/portal-denuncias" element={<Denuncias />} />
+        <Route path="/banco-licitaciones-abiertas" element={<Blaa />} />
+        <Route path="/registro-proveedores" element={<Registro />} />
+        <Route path="/transparencia" element={<Transparencia />} />
+        <Route path="/preguntas-frecuentes" element={<Preguntas />} />
+        <Route path="/portal-denuncias" element={<Denuncias />} />
+        <Route path="/inclusion-social" element={<Agro />} />
       </Routes>
       <Footer />
     </>
