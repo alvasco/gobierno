@@ -4,15 +4,7 @@ import { Carousel, Container } from "react-bootstrap";
 const Carrousel = () => {
   return (
     <Container style={{ marginBlock: "5em" }}>
-      
       <Carousel variant="dark">
-      <Carousel.Item>
-          <img
-            className="d-block "
-            src="./assets/img/agrupa3.svg"
-            alt="second slide"
-          />
-        </Carousel.Item>
         <Carousel.Item
           style={{
             textAlign: "center"
@@ -20,7 +12,7 @@ const Carrousel = () => {
         >
           <img
             className="d-block "
-            src="./assets/img/agrupa1.svg"
+            src="./assets/img/Group94.svg"
             alt="First slide"
             style={{
               textAlign: "center"
@@ -30,14 +22,14 @@ const Carrousel = () => {
         <Carousel.Item>
           <img
             className="d-block "
-            src="./assets/img/agrupa2.svg"
+            src="./assets/img/Group95.svg"
             alt="second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block "
-            src="./assets/img/agrupa3.svg"
+            src="./assets/img/Group96.svg"
             alt="second slide"
           />
         </Carousel.Item>
