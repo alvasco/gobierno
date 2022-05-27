@@ -72,6 +72,15 @@ const Menu = () => {
               </Nav.Link>
               <Nav.Link className="links" style={{ color: "white" }}>
                 <Link
+                  to={"/agro-rueda"}
+                  className="links"
+                  style={{ color: "white" }}
+                >
+                  Agrorueda{" "}
+                </Link>
+              </Nav.Link>
+              <Nav.Link className="links" style={{ color: "white" }}>
+                <Link
                   to={"/preguntas-frecuentes"}
                   className="links"
                   style={{ color: "white" }}

@@ -10,6 +10,7 @@ import Transparencia from "./Screens/Transparencia/Transparencia";
 import Preguntas from "./Screens/Preguntas/Preguntas";
 import Denuncias from "./Screens/Denuncias/Denuncias";
 import Agro from "./Screens/Agro/Agro";
+import AgroRueda from "./Screens/AgroRueda/AgroRueda";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/preguntas-frecuentes" element={<Preguntas />} />
         <Route path="/portal-denuncias" element={<Denuncias />} />
         <Route path="/inclusion-social" element={<Agro />} />
+        <Route path="/agro-rueda" element={<AgroRueda />} />
       </Routes>
       <Footer />
     </>

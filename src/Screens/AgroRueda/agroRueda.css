@@ -1,0 +1,149 @@
+.evento{
+    margin-block: 50px;
+    align-items: center;
+}
+.evento-titulo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.evento-texto{
+    font-size: 25px;
+    font-weight: 400;
+    color: #605F5F;
+}
+.container-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 50px;
+}
+.containerIn{
+    border-radius: 10px;
+    padding-block: 30px;
+    background-color: #EFF5F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.parrafo-evento{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+}
+.img img, .parrafo p{
+    align-self: center;
+}
+.parrafo p{
+    margin: 0;
+    padding: 0;
+    color: #31446C;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.lightP{
+    font-weight: 400;
+    color:#31446C ;
+}
+.strong-evento{
+    color: #31446C;
+}
+.quienesIn{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 60%;
+}
+.quienesIn p{
+    text-align: justify;
+}
+.quienesIn p span{
+    color: #F2BD02;
+    font-weight: 700;
+}
+.containerQuienes{
+    background-image: url(../../../public/assets/img/bkg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 80px 60px 0;
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+}
+.como-titulo{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.como-texto{
+    font-size: 25px;
+    font-weight: 400;
+    color: #605F5F;
+    text-align: justify;
+    
+}
+.container-como{
+    margin-bottom: 30px;
+}
+.como-row{
+    background: #EFF5F8;
+    padding: 30px;
+    text-align: center;
+    
+}
+.como-links{
+
+    align-items: center;
+    background: #fff;
+    padding-block: 50px;border-radius: 20px;
+}
+.como-links span{
+
+    color:#F2BD02;
+}
+.como-links p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-block: 30px;
+    
+    
+}
+.agenda-card{
+    background: #EFF5F8;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.agenda-row{
+    justify-content: space-between;
+}
+.agenda-row_last{
+    justify-content: center;
+}
+.agenda-card p{
+    color: #F2BD02;
+    font-size: 18px;
+    font-weight: 700;
+}
+.agenda-card span{
+    color: #605F5F;
+    font-weight: lighter;
+}
+.agenda-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-block: 30px;
+    text-align: center;
+}
+.agenda-title span{
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
