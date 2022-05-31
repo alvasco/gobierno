@@ -27,12 +27,12 @@
     justify-content: center;
 }
 .img{
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: center;
 }
 .parrafo-evento{
-    width: 70%;
+    width: 75%;
     display: flex;
     justify-content: start;
 }
@@ -52,15 +52,28 @@
 }
 .strong-evento{
     color: #31446C;
+    font-size: 20px;
 }
+.parrafo-evento > p{
+    margin-bottom: 0;
+}
+
 .quienesIn{
     background-color: #fff;
     border-radius: 10px;
     padding: 40px;
     width: 60%;
 }
+.quienesIn h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
 .quienesIn p{
     text-align: justify;
+    color: #31446C;
+    
 }
 .quienesIn p span{
     color: #F2BD02;
@@ -73,18 +86,21 @@
     background-size: cover;
     padding: 60px 80px 60px 0;
     display: flex;
-    justify-content: end;
+    align-items: flex-end;
     margin-top: 80px;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 26px;
 }
 .como-titulo{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
 }
 .como-texto{
     font-size: 25px;
     font-weight: 400;
-    color: #605F5F;
+    color: #31446C;
     text-align: justify;
     
 }
@@ -120,30 +136,43 @@
     text-align: center;
     margin-bottom: 20px;
     border-radius: 20px;
+    width: 49%;
+}
+.agenda-card:hover {
+    background-color: #F2BD02;
 }
 .agenda-row{
     justify-content: space-between;
+    gap: 20px;
 }
 .agenda-row_last{
     justify-content: center;
 }
 .agenda-card p{
-    color: #F2BD02;
-    font-size: 18px;
+    color: #31446C;
+    font-size: 22px;
     font-weight: 700;
+    margin-bottom: 0;
+    
 }
+
 .agenda-card span{
-    color: #605F5F;
+    color: #31446C;
     font-weight: lighter;
 }
 .agenda-title{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin-block: 30px;
     text-align: center;
+    margin-block: 60px;
 }
 .agenda-title span{
     font-size: 20px;
     color: black;
+    font-weight: lighter;
+}
+.agenda-title > p{
+    font-size: 18px;
     font-weight: lighter;
 }

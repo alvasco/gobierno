@@ -16,7 +16,7 @@ const TarjetasEvento = () => {
           </div>
           <div className="parrafo-evento">
             <p>
-             <strong className="strong-evento"> Julio 07 de 2022</strong>
+              <strong className="strong-evento"> Julio 07 de 2022</strong>
               <br />
               <span class="lightP">Jueves</span>
             </p>
@@ -34,9 +34,11 @@ const TarjetasEvento = () => {
           </div>
           <div className="parrafo-evento">
             <p>
-            <strong className="strong-evento">Coliseo de Ferias Palmira</strong>
+              <strong className="strong-evento">
+                Recinto Ferial Álvaro Domínguez Vallecilla
+              </strong>
               <br />
-              <span className="lightP">Espacio 8</span>
+              <span className="lightP">Pabellón No. 8</span>
             </p>
           </div>
         </div>
@@ -52,7 +54,7 @@ const TarjetasEvento = () => {
           </div>
           <div className="parrafo-evento">
             <p>
-            <strong className="strong-evento"> Participación gratuita</strong>
+              <strong className="strong-evento"> Participación gratuita</strong>
               <br />
               <span className="lightP">Previo registro</span>
             </p>
@@ -70,7 +72,7 @@ const TarjetasEvento = () => {
           </div>
           <div className="parrafo-evento">
             <p>
-            <strong className="strong-evento"> 8:30 a.m. a 4:00 p.m.</strong>
+              <strong className="strong-evento"> 8:30 a.m. a 4:00 p.m.</strong>
               <br />
               <span className="lightP">Jornada contínua</span>
             </p>
