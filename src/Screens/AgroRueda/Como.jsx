@@ -16,13 +16,12 @@ const Como = () => {
             Participar en la Agrorueda Palmira 2022 es gratis y para ello solo
             debe hacer clic en el botón de INSCRIPCIÓN. Diligenciando el
             formulario, nos podrá compartir su rol como asistente, oferta de
-            productos o intereses.{" "}
+            productos o intereses.
             <strong>
-              {" "}
+              
               Las inscripciones estarán abiertas hasta el 24 de junio
             </strong>
-            . Si tiene dudas puedes escribirnos a:
-            potenciales.proveedores@palmira.gov.co{" "}
+            . Si tiene dudas puedes escribirnos a: potenciales.proveedores@palmira.gov.co
           </p>
         </div>
 
