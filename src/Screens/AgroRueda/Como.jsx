@@ -5,18 +5,24 @@ import Button from "../../components/common/Button";
 const Como = () => {
   return (
     <div className="como-row">
-      <Container style={{
-        marginBlock: "60px",
-      }}>
+      <Container
+        style={{
+          marginBlock: "60px"
+        }}
+      >
         <div className="container-como">
           <p className="como-titulo">¿Cómo participar?</p>
           <p className="como-texto">
             Participar en la Agrorueda Palmira 2022 es gratis y para ello solo
             debe hacer clic en el botón de INSCRIPCIÓN. Diligenciando el
             formulario, nos podrá compartir su rol como asistente, oferta de
-            productos o intereses. <strong> Las inscripciones estarán abiertas hasta el
-            24 de junio</strong>. Si tiene dudas puedes escribirnos a:{" "}
-            <a href="mailto:potenciales.proveedores@palmira.gov.co">potenciales.proveedores@palmira.gov.co</a>
+            productos o intereses.{" "}
+            <strong>
+              {" "}
+              Las inscripciones estarán abiertas hasta el 24 de junio
+            </strong>
+            . Si tiene dudas puedes escribirnos a:
+            potenciales.proveedores@palmira.gov.co{" "}
           </p>
         </div>
 

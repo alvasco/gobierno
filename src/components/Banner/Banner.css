@@ -9,11 +9,17 @@
     line-height: 4vw;
     color: white;
     text-align: center;
-    text-transform: uppercase;
-    
-   
-    
+    text-transform: uppercase; 
   }
   .banner-img{
     width: 100%;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 720px) {
+    .bannerj_text {
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+    
+ 

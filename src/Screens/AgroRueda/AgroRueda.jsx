@@ -33,7 +33,7 @@ const AgroRueda = () => {
             <Col>
               <TarjetasEvento />
             </Col>
-          </Row>{" "}
+          </Row>
         </Row>
       </Container>
       <Row>

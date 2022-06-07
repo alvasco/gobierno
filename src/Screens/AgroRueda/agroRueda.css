@@ -176,3 +176,33 @@
     font-size: 18px;
     font-weight: lighter;
 }
+@media screen and (min-width: 320px) and (max-width: 720px) {
+    .evento{
+        flex-direction: column-reverse;
+    }
+    .evento > div:nth-child(2){
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .container-div{
+       grid-template-columns: auto;
+       padding: 20px;
+    }
+    .containerQuienes{
+        text-align: center;
+        padding: 10px;
+    }
+    .quienesIn{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .como-links{
+        padding: 20px;
+        margin-block: 10px;
+    }
+    .agenda-card{
+        width: 100%;
+    }
+  }
+

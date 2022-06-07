@@ -11,7 +11,7 @@ const Footer = () => {
           margin: "0"
         }}
       >
-        <Col className="footer">
+        <Col sm={12} md={6} className="footer">
           <div
             style={{
               display: "flex",
@@ -19,6 +19,7 @@ const Footer = () => {
               alignItems: "center",
               borderRight: "2px solid #33BB67",
               marginBlock: "1.2em"
+              
             }}
           >
             <p className="titles">Alianzas</p>
@@ -33,7 +34,7 @@ const Footer = () => {
             </a>
           </div>
         </Col>
-        <Col className="footer">
+        <Col sm={12} md={6} className="footer">
           <div
             style={{
               display: "flex",

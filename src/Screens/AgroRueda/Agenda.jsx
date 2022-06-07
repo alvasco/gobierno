@@ -11,13 +11,13 @@ const Agenda = () => {
 
       <Container style={{marginBottom:"60px"}}>
         <Row className="agenda-row">
-          <Col className="agenda-card" >
+          <Col sm={12} className="agenda-card" >
             <p>
               9:00 a 9:30 a.m. <br />
               <span> Instalación de la Agrorueda</span>
             </p>
           </Col>
-          <Col className="agenda-card" >
+          <Col sm={12} className="agenda-card" >
             <p>
               9:30 a 9:40 a.m. <br />
               <span> Apertura y agenda del evento</span>
@@ -25,13 +25,13 @@ const Agenda = () => {
           </Col>
         </Row>
         <Row className="agenda-row">
-          <Col className="agenda-card" >
+          <Col sm={12} className="agenda-card" >
             <p>
               9:40 a 10:40 a.m. <br />
               <span> Taller y herramientas para contratar con la Alcaldía</span>
             </p>
           </Col>
-          <Col className="agenda-card" >
+          <Col sm={12} className="agenda-card" >
             <p>
               10:40 a 11:10 a.m. <br />
               <span> Aprendizajes sobre Ley de Compras Públicas Locales</span>
@@ -39,13 +39,13 @@ const Agenda = () => {
           </Col>
         </Row>
         <Row className="agenda-row">
-          <Col className="agenda-card" >
+          <Col sm={12} className="agenda-card" >
             <p>
               11:10 a 11:30 a.m. <br />
               <span> Metodología e inicio de la rueda</span>
             </p>
           </Col>
-          <Col className="agenda-card" >
+          <Col sm={12} className="agenda-card" >
             <p>
               11:30 a.m. a 4:00 p.m. <br />
               <span>Rueda de negocios </span>
