@@ -72,7 +72,7 @@ const TarjetasEvento = () => {
           </div>
           <div className="parrafo-evento">
             <p>
-              <strong className="strong-evento"> 8:30 a.m. a 4:00 p.m.</strong>
+              <strong className="strong-evento"> 9:00 a.m. a 4:00 p.m.</strong>
               <br />
               <span className="lightP">Jornada contínua</span>
             </p>
