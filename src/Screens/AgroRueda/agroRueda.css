@@ -136,7 +136,7 @@
     text-align: center;
     margin-bottom: 20px;
     border-radius: 20px;
-    width: 49%;
+   /* width: 49%; */
 }
 .agenda-card:hover {
     background-color: #F2BD02;
