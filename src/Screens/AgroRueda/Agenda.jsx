@@ -13,52 +13,34 @@ const Agenda = () => {
         <Row className="agenda-row">
           <Col sm={12} className="agenda-card" >
             <p>
-              9:00 a 9:30 a.m. <br />
-              <span> Instalación de la Agrorueda</span>
-            </p>
-          </Col>
-          <Col sm={12} className="agenda-card" >
-            <p>
-              9:30 a 9:40 a.m. <br />
-              <span> Apertura y agenda del evento</span>
+              9:00 a.m. a 9:20 a.m.<br />
+              <span>Apertura y socialización de la metodología para la rueda de negocios</span>
             </p>
           </Col>
         </Row>
         <Row className="agenda-row">
           <Col sm={12} className="agenda-card" >
             <p>
-              9:40 a 10:40 a.m. <br />
-              <span> Taller y herramientas para contratar con la Alcaldía</span>
-            </p>
-          </Col>
-          <Col sm={12} className="agenda-card" >
-            <p>
-              10:40 a 11:10 a.m. <br />
-              <span> Aprendizajes sobre Ley de Compras Públicas Locales</span>
+              9:20 a.m. a 1:00 p.m.<br />
+              <span>Desarrollo de la Agrorueda Palmira 2022</span>
             </p>
           </Col>
         </Row>
         <Row className="agenda-row">
           <Col sm={12} className="agenda-card" >
             <p>
-              11:10 a 11:30 a.m. <br />
-              <span> Metodología e inicio de la rueda</span>
-            </p>
-          </Col>
-          <Col sm={12} className="agenda-card" >
-            <p>
-              11:30 a.m. a 4:00 p.m. <br />
-              <span>Rueda de negocios </span>
+              2:00 p.m. a 3:00 p.m.<br />
+              <span>Taller de participación y herramientas para contratar con la Alcaldía de Palmira</span>
             </p>
           </Col>
         </Row>
-        <Row className="agenda-row_last">
-          <div className="agenda-card" >
+        <Row className="agenda-row">
+          <Col sm={12} className="agenda-card" >
             <p>
-              4:00 p.m. a 4:30 p.m. <br />
-              <span> Cierre</span>
+              3:00 p.m. a 4:00 p.m. <br />
+              <span>Socialización de Ley 2046 o Ley de Compras Públicas</span>
             </p>
-          </div>
+          </Col>
         </Row>
       </Container>
     </>
